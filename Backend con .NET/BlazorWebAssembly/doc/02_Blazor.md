@@ -57,3 +57,13 @@ En resumen:
 
 Blazor Server destaca en interactividad en tiempo real y backend integrado.
 Blazor WebAssembly ofrece compatibilidad multiplataforma, ejecución del lado cliente y mayor rendimiento
+
+```
+💚 La gente de Platzi destaca además:
+
+- Blazor WebAssembly:
+   - Mejor experiencia en la web
+   - Soporta progressive web apps (PWA)
+- Blazor Server
+   - Excelente para manipular grandes cantidades de datos y lógica de negocio
+```
