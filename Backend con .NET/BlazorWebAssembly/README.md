@@ -6,4 +6,5 @@ El desarrollo en este repositorio implica el siguiente stack tecnológico:
 - Visual Studio Code o Visual Studio 2022
 - SDK de .NET 8
 - C#
+- Blazor WebAssembly
 - HTML, CSS, JavaScript
