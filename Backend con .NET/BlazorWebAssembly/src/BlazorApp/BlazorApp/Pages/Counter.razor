@@ -1,4 +1,4 @@
-﻿@page "/counter/{currentCountParameter?}"
+﻿@page "/counter"
 @inject ILogger<Counter> logger;
 
 <PageTitle>Counter</PageTitle>
@@ -12,19 +12,13 @@
 @code {
     private int currentCount = 0;
 
+    [SupplyParameterFromQuery]
     [Parameter]
-    public string? currentCountParameter { get; set; }
+    public string? counterParamFromQuery { get; set; }
 
 
     public override Task SetParametersAsync(ParameterView parameters)
     {
-        if(parameters.TryGetValue<string>(nameof(currentCountParameter), out var value))
-        {
-            if(value is not null)
-            {
-                currentCountParameter = value;
-            }
-        }
         return base.SetParametersAsync(parameters);
     }
 
@@ -38,7 +32,7 @@
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        currentCount = currentCountParameter != null ? int.Parse(currentCountParameter) : 0;
+        currentCount = counterParamFromQuery != null ? int.Parse(counterParamFromQuery) : 0;
 
         logger.LogInformation("Component initialized");
     }
