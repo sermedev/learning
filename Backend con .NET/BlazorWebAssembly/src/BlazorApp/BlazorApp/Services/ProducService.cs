@@ -17,8 +17,14 @@ namespace BlazorApp.Services
 
         public async Task<List<Product>?> Get()
         {
-            var response = await _httpClient.GetAsync("/v1/products");
-            return JsonSerializer.Deserialize<List<Product>>(await response.Content.ReadAsStreamAsync());
+            var response = await _httpClient.GetAsync("v1/products");
+            var content = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(content);
+            }
+
+            return JsonSerializer.Deserialize<List<Product>>(content, _jsonSerializerOptions);
         }
 
         public async Task Add(Product product)
