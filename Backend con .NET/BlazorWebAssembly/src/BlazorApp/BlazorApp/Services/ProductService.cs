@@ -4,12 +4,12 @@ using System.Text.Json;
 
 namespace BlazorApp.Services
 {
-    public class ProducService
+    public class ProductService: IProductService
     {
         private readonly HttpClient _httpClient;
         private readonly JsonSerializerOptions _jsonSerializerOptions;
 
-        public ProducService(HttpClient httpClient, JsonSerializerOptions jsonSerializerOptions)
+        public ProductService(HttpClient httpClient, JsonSerializerOptions jsonSerializerOptions)
         {
             _httpClient = httpClient;
             _jsonSerializerOptions = jsonSerializerOptions;
@@ -46,5 +46,12 @@ namespace BlazorApp.Services
                 throw new ApplicationException(content);
             }
         }
+    }
+
+    public interface IProductService
+    {
+        Task<List<Product>?> Get();
+        Task Add(Product product);
+        Task Delete(int productId);
     }
 }
