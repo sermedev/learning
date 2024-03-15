@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace BlazorApp.Services
 {
-    public class CategoryService
+    public class CategoryService: ICategoryService
     {
 
         private readonly HttpClient _httpClient;
@@ -16,7 +16,7 @@ namespace BlazorApp.Services
         }
         public async Task<List<Category>?> Get()
         {
-            var response = await _httpClient.GetAsync("/v1/Categories");
+            var response = await _httpClient.GetAsync("v1/Categories");
             var content = await response.Content.ReadAsStringAsync();
             if (!response.IsSuccessStatusCode)
             {
@@ -26,5 +26,10 @@ namespace BlazorApp.Services
 
         }
 
+    }
+
+    public interface ICategoryService
+    {
+        Task<List<Category>?> Get();
     }
 }
