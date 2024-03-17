@@ -1,12 +1,17 @@
 ﻿@page "/products"
 @using BlazorApp.Models
 @using BlazorApp.Services
+
 @inject ILogger<Products> logger;
 @inject IProductService productService;
+@inject NavigationManager NavigationManager;
+
 
 <PageTitle>Products</PageTitle>
 
 <ModuleTitle Title="Products" />
+
+<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/addproduct"))">Add product</button>
 
 @if(_products?.Count > 0)
 {
