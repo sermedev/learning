@@ -9,3 +9,4 @@ Este repositorio contiene la colección de cursos y práticas realizadas durante
 - [Curso de Fundamentos de Entity Framework (Platzi)](https://github.com/sermedev/learning/tree/main/Backend%20con%20.NET/EntityFramework_platzi)
 - [Curso de Blazor Web Assembly (Platzi)](https://github.com/sermedev/learning/tree/main/Backend%20con%20.NET/BlazorWebAssembly)
 - [Curso de Azure DevOps: Flujos de CI/CD (Platzi)](https://github.com/sermedev/learning/tree/main/Backend%20con%20.NET/AzureDevOps)
+- [Curso Práctico de Arquitectura Backend](https://github.com/sermedev/learning/tree/main/Backend%20con%20.NET/ArquitecturaBackend)
