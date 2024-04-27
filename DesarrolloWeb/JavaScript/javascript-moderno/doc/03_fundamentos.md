@@ -65,7 +65,6 @@ Es una información que no es objeto y son inmutables.
 - protected
 - await
 
-  
 ### Evitar usar
 - null
 - undefined
