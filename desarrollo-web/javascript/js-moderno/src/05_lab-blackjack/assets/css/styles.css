@@ -20,6 +20,6 @@ html, body {
     margin-left: -75px;
 }
 
-#pc-cards, #player-cards {
+.divCards {
     height: 250px;
 }
