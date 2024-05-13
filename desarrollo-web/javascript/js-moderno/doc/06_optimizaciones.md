@@ -1,5 +1,13 @@
 # Optimizaciones
 
+
+- [Optimizaciones](#optimizaciones)
+  - [Patrón módulo](#patrón-módulo)
+    - [Ejemplo de implementación](#ejemplo-de-implementación)
+  - [Use Strict](#use-strict)
+  - [Minifier](#minifier)
+
+
 ## Patrón módulo
 
 El patrón módulo en JavaScript es una técnica que permite encapsular componentes y mejorar la modularidad del código. Aquí tienes algunos detalles al respecto:
