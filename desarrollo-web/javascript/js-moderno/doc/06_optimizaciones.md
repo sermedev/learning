@@ -99,3 +99,13 @@ El uso de `'use strict'` en JavaScript permite aplicar **estrictamente** ciertas
   
 En resumen, `'use strict'` es una herramienta poderosa para escribir código más seguro y evitar errores sutiles. ¡Úsalo siempre que puedas! 😊
 
+
+## Minifier
+
+Minificar un archivo JavaScript es una práctica común para **optimizar** su tamaño y mejorar el rendimiento de las aplicaciones web. Aquí tienes algunas opciones para minificar tu código JS:
+
+1. **Minify-JS.com**: Es una herramienta en línea que permite reducir el tamaño del código JavaScript hasta en un 80%. Utiliza la utilidad Terser, compatible con el estándar ES6+. Solo copia tu código y pégalo en el área de texto “Código fuente” en [Minify-JS.com](https://minify-js.com/). Luego, haz clic en el botón “Minificar” y obtendrás el resultado1.
+2. **Aspose Minificador en línea JS**: Otra opción es utilizar la herramienta de Aspose. Puedes copiar tu código JavaScript o cargar un archivo desde tu sistema local. Haz clic en “Minificar” y verás el resultado en el campo de texto2.
+3. **Editar en el navegador**: Si prefieres hacerlo directamente en el navegador, puedes usar las herramientas de desarrollador de Google Chrome. Carga el archivo JavaScript local o del servidor, ve a *“Menú” > “Más herramientas” > “Herramientas de desarrollador”* o presiona la tecla de acceso directo (F12) para abrir las herramientas de desarrollador.
+   
+Recuerda que la minificación **elimina caracteres innecesarios, acorta nombres de variables y funciones, y optimiza el código para una carga más rápida**
