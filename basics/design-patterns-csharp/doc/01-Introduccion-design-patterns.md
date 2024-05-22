@@ -10,10 +10,3 @@ Se clasifican en tres grupos:
 2. **Patrones Estructurales**: Abordan problemas relacionados con la estructura de las clases y objetos, cómo se componen para formar estructuras mayores.
 3. **Patrones de Comportamiento**: Se ocupan de cómo los objetos interactúan y distribuyen responsabilidades entre sí.
    
-   
-
-Catálogo:
-
-1. **Patrones Creacionales**: 
-2. **Patrones Estructurales**: 
-3. **Patrones de Comportamiento**: 

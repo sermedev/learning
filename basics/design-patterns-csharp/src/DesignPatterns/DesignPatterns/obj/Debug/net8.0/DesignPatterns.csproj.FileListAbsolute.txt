@@ -1,0 +1,15 @@
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\bin\Debug\net8.0\DesignPatterns.exe
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\bin\Debug\net8.0\DesignPatterns.deps.json
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\bin\Debug\net8.0\DesignPatterns.runtimeconfig.json
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\bin\Debug\net8.0\DesignPatterns.dll
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\bin\Debug\net8.0\DesignPatterns.pdb
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.AssemblyInfoInputs.cache
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.AssemblyInfo.cs
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.sourcelink.json
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.dll
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\refint\DesignPatterns.dll
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.pdb
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.genruntimeconfig.cache
+D:\dev\sermedev\github\learning\basics\design-patterns-csharp\src\DesignPatterns\DesignPatterns\obj\Debug\net8.0\ref\DesignPatterns.dll
