@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10232C68-188C-44E7-8FF7-ED55C02E9874}|DesignPatterns\\DesignPatterns.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10232C68-188C-44E7-8FF7-ED55C02E9874}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatternsasp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|solutionrelative:designpatternsasp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatternsasp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|solutionrelative:designpatternsasp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1498-2035-4D3B-A693-92A91148023F}|Tools\\Tools.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\tools\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1498-2035-4D3B-A693-92A91148023F}|Tools\\Tools.csproj|solutionrelative:tools\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10232C68-188C-44E7-8FF7-ED55C02E9874}|DesignPatterns\\DesignPatterns.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatterns\\patterns\\creational\\singleton\\singletonsafethreads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10232C68-188C-44E7-8FF7-ED55C02E9874}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\patterns\\creational\\singleton\\singletonsafethreads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10232C68-188C-44E7-8FF7-ED55C02E9874}|DesignPatterns\\DesignPatterns.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatterns\\patterns\\creational\\singleton\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10232C68-188C-44E7-8FF7-ED55C02E9874}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\patterns\\creational\\singleton\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatternsasp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|solutionrelative:designpatternsasp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatternsasp\\configurations\\myconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|solutionrelative:designpatternsasp\\configurations\\myconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatternsasp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|solutionrelative:designpatternsasp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|d:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\designpatterns\\designpatternsasp\\designpatternsasp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B143BB4-2EEB-47EA-BCB3-212E10AF8982}|DesignPatternsAsp\\DesignPatternsAsp.csproj|solutionrelative:designpatternsasp\\designpatternsasp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,39 +58,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DesignPatternsAsp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DesignPatternsAsp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T05:13:39.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SingletonSafeThreads.cs",
               "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatterns\\Patterns\\Creational\\Singleton\\SingletonSafeThreads.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\Patterns\\Creational\\Singleton\\SingletonSafeThreads.cs",
               "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatterns\\Patterns\\Creational\\Singleton\\SingletonSafeThreads.cs",
               "RelativeToolTip": "DesignPatterns\\Patterns\\Creational\\Singleton\\SingletonSafeThreads.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T17:26:26.664Z"
+              "WhenOpened": "2024-05-25T05:11:43.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyConfig.cs",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Configurations\\MyConfig.cs",
+              "RelativeDocumentMoniker": "DesignPatternsAsp\\Configurations\\MyConfig.cs",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Configurations\\MyConfig.cs",
+              "RelativeToolTip": "DesignPatternsAsp\\Configurations\\MyConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:50:11.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DesignPatternsAsp",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\DesignPatternsAsp.csproj",
+              "RelativeDocumentMoniker": "DesignPatternsAsp\\DesignPatternsAsp.csproj",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\DesignPatternsAsp.csproj",
+              "RelativeToolTip": "DesignPatternsAsp\\DesignPatternsAsp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-25T04:49:36.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\appsettings.json",
+              "RelativeDocumentMoniker": "DesignPatternsAsp\\appsettings.json",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\appsettings.json",
+              "RelativeToolTip": "DesignPatternsAsp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T04:48:30.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Singleton.cs",
-              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatterns\\Patterns\\Creational\\Singleton\\Singleton.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\Patterns\\Creational\\Singleton\\Singleton.cs",
-              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatterns\\Patterns\\Creational\\Singleton\\Singleton.cs",
-              "RelativeToolTip": "DesignPatterns\\Patterns\\Creational\\Singleton\\Singleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\Tools\\Log.cs",
+              "RelativeDocumentMoniker": "Tools\\Log.cs",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\Tools\\Log.cs",
+              "RelativeToolTip": "Tools\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:36:36.847Z"
+              "WhenOpened": "2024-05-25T04:37:05.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatterns\\Program.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
-              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatterns\\Program.cs",
-              "RelativeToolTip": "DesignPatterns\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DesignPatternsAsp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DesignPatternsAsp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:32:46.938Z",
+              "WhenOpened": "2024-05-25T04:35:46.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatternsAsp\\Program.cs",
+              "ToolTip": "D:\\dev\\sermedev\\github\\learning\\basics\\design-patterns-csharp\\src\\DesignPatterns\\DesignPatternsAsp\\Program.cs",
+              "RelativeToolTip": "DesignPatternsAsp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:34:00.87Z",
               "EditorCaption": ""
             }
           ]
