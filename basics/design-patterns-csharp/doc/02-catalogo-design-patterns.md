@@ -1,5 +1,11 @@
 # Catálogo de patrones de diseño
 
+- [Catálogo de patrones de diseño](#catálogo-de-patrones-de-diseño)
+  - [Patrones creacionales](#patrones-creacionales)
+    - [Singleton 🕴️](#singleton-️)
+    - [Factory Method 🏭](#factory-method-)
+
+
 ## Patrones creacionales
 
 ### Singleton 🕴️
@@ -24,3 +30,44 @@ Singleton nos permite asegurarnos de que una clase tenga una única instancia. P
  - El patrón singleton habitual puede dar problemas en determinadas circunstancias como el uso de hilos o reflexión. Procura implementar el patrón de una manera robusta.
 
 - Muchos desarrolladores consideran el patrón Singleton un antipatrón. Por este motivo, su uso está en declive en el código C#.
+
+
+### Factory Method 🏭
+
+El patrón Factory, también conocido como Método Factoría, permite crear objetos sin especificar su clase exacta.
+
+Esto significa que el objeto creado puede intercambiarse con flexibilidad y facilidad.
+
+Para implementar este método, los desarrolladores utilizan el Factory Method, que es el corazón de este patrón.
+
+**¿Cuál es la finalidad del patrón Factory?**
+- El objetivo principal es separar la creación de objetos de los propios objetos.
+- En lugar de usar un constructor de clase normal, el Factory Method toma su lugar.
+- Esto permite seguir los principios SOLID, que son fundamentales en el diseño orientado a objetos.
+
+**¿Cómo funciona el patrón Factory Method?**
+- Se crea una interfaz o clase abstracta que define los métodos necesarios para crear un objeto.
+- La implementación de esos métodos se deja a las subclases.
+- Cada subclase puede decidir qué clases instanciar y cómo realizar la creación de objetos.
+- Ejemplos de esquema de creación:
+  
+  ![](img/factory-method-1.png)  
+
+  ![](img/factory-method-2.png)
+
+
+
+
+**Ventajas e inconvenientes del patrón de diseño Factory:**
+- **Ventajas**: 😀
+    - Flexibilidad: Permite cambiar las implementaciones sin afectar al código cliente.
+    - Reusabilidad: Facilita la creación de nuevas subclases sin alterar la estructura existente.
+- **Inconvenientes**: 😔
+    - Complejidad: Puede aumentar la complejidad del código al introducir más clases e interfaces.
+
+**¿Cuándo se utiliza el patrón Factory?**
+  - Utiliza el patrón Factory cuando necesites crear objetos de manera flexible y desacoplada.
+  - Es especialmente útil cuando no conoces la clase exacta del objeto que debes crear.
+
+
+En resumen, el patrón Factory Method es una herramienta poderosa para crear objetos de manera dinámica y modular. Ayuda a mantener un código limpio y extensible, permitiendo que las subclases tomen decisiones sobre la creación de objetos.

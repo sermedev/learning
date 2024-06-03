@@ -1,11 +1,12 @@
-﻿using DesignPatterns.Patterns.Creational.Singleton;
+﻿using DesignPatterns.Patterns.Creational.FactoryMethod;
+using DesignPatterns.Patterns.Creational.Singleton;
 
 partial class Program
 {
     static void Main(string[] args)
     {
-        TestSingleton();
-       
+        //TestSingleton();
+        TestFactoryMethod();
     }
 
     #region Singleton
@@ -72,6 +73,22 @@ partial class Program
             var singleton = SingletonSafeThreads.GetInstance(i.ToString());
             Console.Write($"{singleton.Value} ");
         });
+    }
+
+    #endregion
+
+    #region FactoryMethod
+
+    private static void TestFactoryMethod()
+    {
+        SaleFactory storeSaleFactoy = new StoreSaleFactory(10);
+        SaleFactory internetSaleFactoy = new InternetSaleFactory(2);
+
+        ISale sale1 = storeSaleFactoy.GetSale();
+        sale1.Sell(15);
+
+        ISale sale2 = internetSaleFactoy.GetSale();
+        sale2.Sell(15);
     }
 
     #endregion
