@@ -1,4 +1,6 @@
-﻿using DesignPatterns.Patterns.Behavioral.DependencyInjection;
+﻿using DesignPatterns.Models;
+using DesignPatterns.Patterns.Behavioral.DependencyInjection;
+using DesignPatterns.Patterns.Behavioral.Repository;
 using DesignPatterns.Patterns.Creational.FactoryMethod;
 using DesignPatterns.Patterns.Creational.Singleton;
 
@@ -8,7 +10,8 @@ partial class Program
     {
         //TestSingleton();
         //TestFactoryMethod();
-        TestDependencyInjection();
+        //TestDependencyInjection();
+        TestRespository();
     }
 
 
@@ -100,13 +103,46 @@ partial class Program
 
     private static void TestDependencyInjection()
     {
-        var beer = new Beer("Mahou", "Rubia");
+        var beer = new DesignPatterns.Patterns.Behavioral.DependencyInjection.Beer("Mahou", "Rubia");
         var drinkBeer = new DrinkWithBeer(10, 2, beer);
         drinkBeer.Build();
     }
 
     #endregion
 
+    #region Repository
+
+    private static void TestRespository()
+    {
+        using (var context = new DesignPatternsContext())
+        {
+            Console.WriteLine("Cervezas iniciales: ");
+
+            var lst = context.Beers.ToList();
+
+            foreach (var beer in lst)
+            {
+                Console.WriteLine(beer.Name);
+            }
+
+            var beerRepository = new BeerRespository(context);
+            var beerToAdd = new DesignPatterns.Models.Beer();
+            beerToAdd.Name = "Coronita";
+            beerToAdd.Style = "Rubia";
+            beerRepository.Add(beerToAdd);
+            beerRepository.Save();
+
+
+            Console.WriteLine(Environment.NewLine + "Cervezas finales: ");
+            lst = context.Beers.ToList();
+            foreach (var beer in lst)
+            {
+                Console.WriteLine(beer.Name);
+            }
+        }
+    }
+
+    #endregion
 
     #region Helpers
 
@@ -114,8 +150,8 @@ partial class Program
     {
         Console.WriteLine($"{Environment.NewLine}-------------------------{Environment.NewLine}");
         Console.WriteLine($">>> {testNanme}{Environment.NewLine}");
-    } 
-    
+    }
+
     #endregion
 
 }

@@ -6,6 +6,7 @@
     - [Factory Method 🏭](#factory-method-)
   - [Patrones de comportamiento](#patrones-de-comportamiento)
     - [Dependency Injection](#dependency-injection)
+    - [Repositoy](#repositoy)
 
 
 ## Patrones creacionales
@@ -86,3 +87,26 @@ En otras palabras, se trata de un patrón de diseño que se encarga de extraer l
 **Inyección de Dependencias vs. Inversión de Dependencias**
 La *inversión de dependencias* es uno de los 5 principios SOLID de la programación orientada a objetos. Y la *inyección de dependencias* es un patrón de diseño que nos permite implementar 2 de los principios SOLID: **Interface Segregation** y **Dependency Inversion**.
 
+
+### Repositoy
+El patrón Repository es un diseño comúnmente utilizado en desarrollo de software. Su objetivo es abstraer y encapsular la capa de acceso a datos. 
+
+**¿Qué es el Patrón Repository?**
+- El Patrón Repository se utiliza para separar la lógica de recuperación y asignación de datos a modelos de entidad de la lógica de negocios que actúa sobre esos modelos.
+- Básicamente, actúa como un mediador entre la aplicación y el almacenamiento de datos (como una base de datos).
+
+**¿Por qué necesitamos el Patrón Repository?**
+- Evita la duplicación de código al centralizar la lógica de acceso a datos.
+- Permite que la lógica de negocios sea independiente del tipo de datos subyacente (base de datos, API, etc.).
+
+**Implementación en C# (Ejemplo):**
+- Imagina que tienes una aplicación que necesita acceder a datos de tres fuentes: SQL Server (usando Entity Framework), MongoDB y una API web.
+- Crearemos una estructura de repositorios para cada fuente de datos.
+- Cada repositorio contendrá métodos para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) específicas para esa fuente de datos.
+  
+**Ventajas del Patrón Repository:**
+- Abstracción: Oculta los detalles de acceso a datos detrás de una interfaz común.
+- Reutilización: Evita duplicación de código.
+- Mantenibilidad: Facilita futuras modificaciones.
+
+En resumen, el Patrón Repository es una excelente práctica para mantener un código limpio y modular al separar la lógica de acceso a datos de la lógica de negocios.
