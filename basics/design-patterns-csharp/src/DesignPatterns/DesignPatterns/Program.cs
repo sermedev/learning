@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Patterns.Creational.FactoryMethod;
+﻿using DesignPatterns.Patterns.Behavioral.DependencyInjection;
+using DesignPatterns.Patterns.Creational.FactoryMethod;
 using DesignPatterns.Patterns.Creational.Singleton;
 
 partial class Program
@@ -6,8 +7,10 @@ partial class Program
     static void Main(string[] args)
     {
         //TestSingleton();
-        TestFactoryMethod();
+        //TestFactoryMethod();
+        TestDependencyInjection();
     }
+
 
     #region Singleton
 
@@ -89,6 +92,17 @@ partial class Program
 
         ISale sale2 = internetSaleFactoy.GetSale();
         sale2.Sell(15);
+    }
+
+    #endregion
+
+    #region DependencyInjection
+
+    private static void TestDependencyInjection()
+    {
+        var beer = new Beer("Mahou", "Rubia");
+        var drinkBeer = new DrinkWithBeer(10, 2, beer);
+        drinkBeer.Build();
     }
 
     #endregion

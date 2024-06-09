@@ -4,6 +4,8 @@
   - [Patrones creacionales](#patrones-creacionales)
     - [Singleton 🕴️](#singleton-️)
     - [Factory Method 🏭](#factory-method-)
+  - [Patrones de comportamiento](#patrones-de-comportamiento)
+    - [Dependency Injection](#dependency-injection)
 
 
 ## Patrones creacionales
@@ -71,3 +73,16 @@ Para implementar este método, los desarrolladores utilizan el Factory Method, q
 
 
 En resumen, el patrón Factory Method es una herramienta poderosa para crear objetos de manera dinámica y modular. Ayuda a mantener un código limpio y extensible, permitiendo que las subclases tomen decisiones sobre la creación de objetos.
+
+
+## Patrones de comportamiento
+
+### Dependency Injection
+
+*Inyección de dependencias* es un patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos. Esos objetos cumplen contratos que necesitan nuestras clases para poder funcionar (de ahí el concepto de dependencia). Nuestras clases no crean los objetos que necesitan, sino que se los suministra otra clase 'contenedora' que inyectará la implementación deseada a nuestro contrato.
+
+En otras palabras, se trata de un patrón de diseño que se encarga de extraer la responsabilidad de la creación de instancias de un componente para delegarla en otro. El término fue acuñado por primera vez por Martin Fowler.
+
+**Inyección de Dependencias vs. Inversión de Dependencias**
+La *inversión de dependencias* es uno de los 5 principios SOLID de la programación orientada a objetos. Y la *inyección de dependencias* es un patrón de diseño que nos permite implementar 2 de los principios SOLID: **Interface Segregation** y **Dependency Inversion**.
+
