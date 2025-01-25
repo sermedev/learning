@@ -28,4 +28,4 @@ Este repositorio contiene una colección de algunos cursos y práticas realizada
 
 ## English
 
-- Sentences for Juniors
+- [Basic sentences](https://github.com/sermedev/learning/blob/main/english/basics-sentences.md)
