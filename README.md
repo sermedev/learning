@@ -23,3 +23,9 @@ Este repositorio contiene una colección de algunos cursos y práticas realizada
 ## DevOps
 
 - [Curso de Azure DevOps: Flujos de CI/CD (Platzi)](https://github.com/sermedev/learning/tree/main/devops/AzureDevOps_platzi)
+
+
+
+## English
+
+- Sentences for Juniors
